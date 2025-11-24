@@ -3,3 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* 1. Estilos para el contenedor principal (.banner-promo) */
+.banner-promo {
+  /* Fondo y forma del contenedor */
+  background-color: #e9ecef; /* Gris muy claro para contrastar */
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+
+  /* Sombra para que el banner destaque un poco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Asegura que el contenido esté bien espaciado si la pantalla es grande */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 2. Estilos para la imagen (img-banner-publicidad) */
+.img-banner-publicidad {
+  /* Limita la altura de la imagen para que no sea demasiado grande */
+  max-height: 200px;
+  width: auto;
+
+  /* Bordes redondeados para la imagen */
+  border-radius: 6px;
+
+  /* Asegura que la imagen esté centrada si es necesario */
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+/* 3. Estilo para el botón (Opcional, para hacerlo más personalizado) */
+.banner-promo .btn-primary {
+  background-color: #007bff; /* Azul de Bootstrap */
+  border-color: #007bff;
+  padding: 10px 30px;
+  font-weight: 600;
+}
